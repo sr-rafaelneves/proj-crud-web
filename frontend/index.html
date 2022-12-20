@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud API</title>
+    <link rel="stylesheet" href="./sass/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div id="div-embrulho">
+        <header><h1>API REST FULL</h1></header>
+        <main>
+            <div id="div-form">
+                <form action="POST">
+                   <!-- <label for="">Nome:</label> -->
+                    <input class="input-infor" type="text" name="nome" id="nome" placeholder="Nome completo"><br>
+                   <!-- <label for="">RG:</label> -->
+                    <input class="input-infor" type="text" name="rg" id="rg" placeholder="RG">
+                </form>
+                <div id="div-btn-acoes">
+                    <input type="button" onclick="coletarDados()" value="Cadastrar" >
+                    <input type="button" value="Limpar">
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+body header {
+  max-width: 100vw;
+  height: 40px;
+  background-color: #123661;
+}
+body header h1 {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+}
+body main #div-form {
+  text-align: center;
+}
+body main #div-form form {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 20px;
+}
+body main #div-form form .input-infor {
+  margin-bottom: 5px;
+  height: 20px;
+  text-align: center;
+}
+body main #div-form #div-btn-acoes {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 5px;
+}
+body main #div-form #div-btn-acoes input {
+  width: 80px;
+}/*# sourceMappingURL=style.css.map */

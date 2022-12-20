@@ -1,0 +1,66 @@
+
+$default-bgheader-color:#123661;
+$default-bgbody-color: #ccc;
+$default-bgform-color: white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $default-bgbody-color;
+
+    #div-embrulho{}
+
+    header{
+        max-width: 100vw;
+        height: 40px;
+        background-color: $default-bgheader-color;
+
+        h1{
+            color: white;
+            text-align: center;
+            font-weight: 100;
+        }
+    }
+
+    main{
+
+        #div-form{
+
+            text-align: center;
+            
+            form{
+                background-color: $default-bgform-color;
+                text-align: center;
+                padding: 10px;
+                border-radius: 5px;
+                max-width: 100%;
+                margin-left: 40%;
+                margin-right: 40%;
+                margin-top: 20px;
+
+                .input-infor{
+                    margin-bottom: 5px;
+                    height: 20px;
+                    text-align: center;
+                }
+
+            }
+            #div-btn-acoes{
+                background-color: $default-bgform-color;
+                text-align: center;
+                padding: 10px;
+                border-radius: 5px;
+                max-width: 100%;
+                margin-left: 40%;
+                margin-right: 40%;
+                margin-top: 5px;
+
+                input{
+                    width: 80px;
+                }
+                }
+        }
+    }
+}
