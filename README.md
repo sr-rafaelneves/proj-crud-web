@@ -11,3 +11,4 @@ Esse projeto foi criado de maniera simples para exercitar o meu conhecimento adq
 - SGBD: MySQL Workbanch<br>
 - JDK: 19<br>
 - Postman<br>
+- Git & Github
