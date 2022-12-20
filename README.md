@@ -8,6 +8,6 @@ Esse projeto foi criado de maniera simples para exercitar o meu conhecimento adq
 - Ferramenta de código: VSCODE<br>
 	- VSCODE Plugin: Extension Pack for Java
 - Database: MySQL Server 8.0<br>
-- ODBC: MySQL Workbanch<br>
+- SGBD: MySQL Workbanch<br>
 - JDK: 19<br>
 - Postman<br>
